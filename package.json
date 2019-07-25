@@ -1,0 +1,22 @@
+{
+  "name": "nut-dev-perf",
+  "private": true,
+  "version": "0.0.0",
+  "description": "my awesome nut project",
+  "keywords": [],
+  "scripts": {
+    "dev": "nut",
+    "dev:speed": "nut --dynamic",
+    "prod": "nut --prod",
+    "create-pages": "rm -rf ./src/pages && node ./scripts/create-many-pages.js"
+  },
+  "author": {
+    "name": "fengzilong",
+    "email": "feng_zilong@163.com"
+  },
+  "devDependencies": {
+    "@nut-project/cli": "0.3.17",
+    "fs-extra": "^8.1.0"
+  },
+  "license": "MIT"
+}
